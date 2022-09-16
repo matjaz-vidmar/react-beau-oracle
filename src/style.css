@@ -1,0 +1,49 @@
+body {
+  background-color: aquamarine;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  background-color: aquamarine;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+header {
+  color: black;
+  font-size: larger;
+  text-size-adjust: 150%;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+  section {
+    height: 100 vh;
+    width: 100 vw;
+  }
+}
+img {
+  width: 500px;
+  height: 600px;
+}
+
+label {
+  color: black;
+  font-size: 50px;
+  font-weight: 300;
+  font-size-adjust: inherit;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  color: black;
+  font-size: larger;
+}
