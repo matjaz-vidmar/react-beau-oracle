@@ -23,9 +23,9 @@ function App() {
             onClick={() => {
               const answers = [
                 'So smart',
-                'I love kimchi'
-                'I hate cone'
-                'play in park'
+                'I love kimchi',
+                'I hate cone',
+                'play in park',
                 'Such philosophy',
                 'Me wants kimchi',
                 'I gud boy',
@@ -36,7 +36,6 @@ function App() {
                 'Squirel!',
                 'much wow',
                 'I puke your car',
-
               ];
               setText(answers[Math.floor(Math.random() * answers.length)]);
             }}
